@@ -19,7 +19,7 @@ class OI:
         #Create the Controller - see above
 
 
-        #set value variables; EX: self.x_power = 0
+        #set value variables; EX: self.inSpeed = 0
 
 
     # Pulling User Input:
@@ -36,4 +36,4 @@ class OI:
     def execute(self):
         '''Runs every control loop'''
 
-        #set values to operator input; EX: self.x_power = self.joystick.getX() or self.a_pressed = self.xbox.getAButton()
+        #set values to operator input; EX: self.inSpeed = self.joystick.getX() or self.a_pressed = self.xbox.getAButton()
