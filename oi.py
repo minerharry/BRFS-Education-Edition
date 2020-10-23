@@ -1,5 +1,4 @@
 import wpilib
-import wpilib.smartdashboard
 
 class OI:
     def __init__(self):
