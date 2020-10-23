@@ -18,10 +18,20 @@ class Drivetrain:
     # There are other types of motors that (if you have time) we may let you use, such as the intake or the color wheel motors. Those motors are talonSRXs, which use the ctre.TalonSRX class:
     # self.otherMotor = ctre.TalonSRX(motor_number); self.otherMotor.set(speed)
 
+
+    #The motor numbers fot the main drive motors are:
+    # Front_left:
+    # Back_left: 
+    # Front_right: 
+    # Back_right:
+
+    #if you want to set other motor powers, ask Colin / Harrison for the motor numbers
+
     
 
     def __init__(self):
         #Create motors (Controllers are REV Spark Maxes)
+        
 
 
     def drive(self, speed, turn):
