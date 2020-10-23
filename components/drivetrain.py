@@ -35,5 +35,5 @@ class Drivetrain:
         self.turn = turn
     
     def execute(self):
-        '''Method that runs every loop'''
+        '''Runs every control loop'''
         self.dt.arcadeDrive(self.speed, self.turn) #Just tells it to drive lul
